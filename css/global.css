@@ -1,3 +1,20 @@
-.caontainer {
-  display: flex;
+:root {
+  --backgroundColor: #ffb190;
+  --contentColor: #241916;
+  --accentColor: #040203;
+  font-family: 'Marck';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'Marck';
+  src: url(../src/fonts/MarckScript-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
 }
